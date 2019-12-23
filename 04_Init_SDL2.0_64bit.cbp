@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="04_Init_SDL2.0_64bit" />
+		<Option pch_mode="2" />
+		<Option compiler="copy_of_gnu_gcc_compiler_-_64bit" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin64bit/04_Init_SDL2_Debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin64bit" />
+				<Option object_output="obj/Debug64bit/" />
+				<Option type="1" />
+				<Option compiler="copy_of_gnu_gcc_compiler_-_64bit" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="libmingw32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2" />
+					<Add library="SDL2_image" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin64bit/04_Init_SDL2_Release" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin64bit" />
+				<Option object_output="obj/Release64bit/" />
+				<Option type="1" />
+				<Option compiler="copy_of_gnu_gcc_compiler_-_64bit" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libmingw32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2" />
+					<Add library="SDL2_image" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/initCloseSDL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/initCloseSDL.h" />
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/renderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/renderer.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

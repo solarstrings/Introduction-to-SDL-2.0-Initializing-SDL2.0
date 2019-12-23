@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1577087298 source:c:\code\03_init_sdl2.0\src\initclosesdl.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	"initCloseSDL.h"
+	"renderer.h"
+
+1577087086 c:\code\03_init_sdl2.0\src\initclosesdl.h
+
+1577086749 c:\code\03_init_sdl2.0\src\renderer.h
+	<SDL2/SDL.h>
+
+1577087605 source:c:\code\03_init_sdl2.0\src\main.c
+	<SDL2/SDL.h>
+	<stdio.h>
+	"initCloseSDL.h"
+	"renderer.h"
+
+1577087015 source:c:\code\03_init_sdl2.0\src\renderer.c
+	<SDL2/SDL.h>
+	<stdio.h>
+	<stdlib.h>
+	"renderer.h"
+
